@@ -19,9 +19,11 @@ jobs:
         node-version: '20'
 
     - name: Install Dependencies
+      working-directory: app
       run: npm install
 
     - name: Run Tests
+      working-directory: app
       run: npm test
 
     - name: Build and Push Docker Image

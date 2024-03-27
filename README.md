@@ -12,7 +12,7 @@ Este projeto demonstra como automatizar o processo de implantação de uma aplic
 
 - GitHub Actions
 - Node.js (aplicação)
-- Docker (contêinerização)
+- Docker (conteinerização)
 - Jest (testes automatizados)
 
 ## Estrutura do Repositório

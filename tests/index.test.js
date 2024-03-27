@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../app');
+const app = require('../index');
 
 describe('Testes da Aplicação', () => {
   it('Deve retornar status 200 para a rota principal', async () => {
